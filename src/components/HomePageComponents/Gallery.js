@@ -1,8 +1,8 @@
-import React from 'react'
-import styled from 'styled-components'
-import { StaticQuery, graphql } from 'gatsby'
-import { styles, Section } from '../../utils'
-import Img from 'gatsby-image'
+import React from "react"
+import styled from "styled-components"
+import { StaticQuery, graphql } from "gatsby"
+import { styles, Section } from "../../utils"
+import Img from "gatsby-image"
 export default function Gallery() {
   return (
     <StaticQuery
@@ -10,7 +10,7 @@ export default function Gallery() {
         {
           img1: file(relativePath: { eq: "homeGallery/img-1.jpeg" }) {
             childImageSharp {
-              fluid(maxWidth: 500) {
+              fluid(maxWidth: 1000) {
                 ...GatsbyImageSharpFluid_tracedSVG
               }
             }
@@ -85,8 +85,8 @@ const GalleryWrapper = styled.div`
       height: 100%;
     }
     grid-template-areas:
-      'one  one two two  '
-      'one  one three three ';
+      "one  one two two  "
+      "one  one three three ";
     .item-1 {
       grid-area: one;
     }

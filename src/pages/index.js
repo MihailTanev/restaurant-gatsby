@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { HomeHeader, Banner, BannerButton } from "../utils"
 import img from "../images/bcg/homeBcg.jpeg"
-import Gallery from "../components/HomePageComponents/Gallery-1"
+import Gallery from "../components/HomePageComponents/Gallery"
 import QuickInfo from "../components/HomePageComponents/QuickInfo"
 import Menu from "../components/HomePageComponents/Menu"
 

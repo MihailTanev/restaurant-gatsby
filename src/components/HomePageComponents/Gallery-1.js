@@ -49,6 +49,12 @@ const GalleryWrapper = styled.div`
   display: grid;
   grid-template-columns: auto;
   grid-row-gap: 1rem;
+  .img {
+    -webkit-backface-visibility: hidden;
+    -ms-transform: translateZ(0);
+    -webkit-transform: translateZ() 0;
+    transform: translateZ(0);
+  }
   .item {
     position: relative;
   }
