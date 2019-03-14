@@ -1,10 +1,8 @@
 import React from "react"
 import Product from "./Product"
 import { StaticQuery, graphql } from "gatsby"
-import { Section, Title, SectionButton } from "../../utils"
+import { Section, Title } from "../../utils"
 import styled from "styled-components"
-import { Link } from "gatsby"
-import { node } from "prop-types"
 
 const PRODUCTS = graphql`
   {

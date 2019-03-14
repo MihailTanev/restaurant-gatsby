@@ -17,14 +17,14 @@ export default function Gallery() {
           }
           img2: file(relativePath: { eq: "homeGallery/img-2.jpeg" }) {
             childImageSharp {
-              fluid(maxWidth: 500) {
+              fluid(maxWidth: 1000) {
                 ...GatsbyImageSharpFluid_tracedSVG
               }
             }
           }
           img3: file(relativePath: { eq: "homeGallery/img-3.jpeg" }) {
             childImageSharp {
-              fluid(maxWidth: 500) {
+              fluid(maxWidth: 1000) {
                 ...GatsbyImageSharpFluid_tracedSVG
               }
             }
